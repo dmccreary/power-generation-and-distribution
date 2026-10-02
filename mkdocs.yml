@@ -38,8 +38,26 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - 1. Electrical Foundations: chapters/01-electrical-foundations/index.md
+      - 2. AC Circuits and Power Factor: chapters/02-ac-circuits-power-factor/index.md
+      - 3. Three-Phase Systems and Power-System Representation: chapters/03-three-phase-system-representation/index.md
+      - 4. Grid Architecture and System Operations: chapters/04-grid-architecture-operations/index.md
+      - 5. Loads, Demand, and Facility Profiles: chapters/05-loads-demand-profiles/index.md
+      - 6. Utility Rates and Project Economics: chapters/06-utility-rates-project-economics/index.md
+      - 7. Generators and Prime Movers: chapters/07-generators-prime-movers/index.md
+      - 8. Thermal and Nuclear Generation: chapters/08-thermal-nuclear-generation/index.md
+      - 9. Hydroelectric and Wind Generation: chapters/09-hydroelectric-wind-generation/index.md
+      - 10. Solar and Emerging Renewable Technologies: chapters/10-solar-emerging-renewables/index.md
+      - 11. Energy Storage and Generation Evaluation: chapters/11-energy-storage-generation-evaluation/index.md
+      - 12. Faults, Grounding, and Overcurrent Fundamentals: chapters/12-faults-grounding-overcurrent/index.md
+      - 13. Transformers and Instrument-Based Protection: chapters/13-transformers-instrument-protection/index.md
+      - 14. Transmission Systems and Grid Oversight: chapters/14-transmission-grid-oversight/index.md
+      - 15. Substations and Protection Coordination: chapters/15-substations-protection-coordination/index.md
+      - 16. Distribution Systems and Equipment: chapters/16-distribution-systems-equipment/index.md
+      - 17. Distribution Performance and Reliability: chapters/17-distribution-reliability/index.md
+      - 18. Building Service, Metering, Automation, and Backup Power: chapters/18-building-service-metering-backup/index.md
+      - 19. Standards, Distributed Energy, and Microgrids: chapters/19-standards-der-microgrids/index.md
+      - 20. Efficiency, Sustainability, and Design Synthesis: chapters/20-efficiency-sustainable-design/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
