@@ -134,7 +134,9 @@
    which otherwise stretches tall poses past --mascot-size. */
 .md-typeset img.mascot-admonition-img {
   float: left;
-  width: var(--mascot-size);
+  /* Preserve each portrait pose's aspect ratio. A fixed square width created
+     empty columns on both sides of the artwork inside the 90px image box. */
+  width: auto;
   height: var(--mascot-size);
   /* margin: top right bottom left */
   margin: 0 0.5em 0 0;
