@@ -1,0 +1,17 @@
+{
+  "FUND": "SteelBlue",
+  "GRID": "DarkSlateBlue",
+  "GEN": "DarkGreen",
+  "THERM": "Crimson",
+  "REN": "LimeGreen",
+  "STOR": "Gold",
+  "XFMR": "DodgerBlue",
+  "SUB": "Teal",
+  "TRANS": "MediumPurple",
+  "DIST": "Orange",
+  "LOAD": "DarkGoldenrod",
+  "PROT": "DarkRed",
+  "SERV": "OliveDrab",
+  "DER": "Coral",
+  "REG": "DimGray"
+}

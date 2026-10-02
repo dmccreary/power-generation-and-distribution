@@ -1,0 +1,359 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Electric Power System,2,FUND
+2,Electricity,3,FUND
+3,Electric Charge,,FUND
+4,Voltage,3,FUND
+5,Current,3,FUND
+6,Resistance,2,FUND
+7,Ohm's Law,4|5|6,FUND
+8,Electric Power,4|5,FUND
+9,Electrical Energy,8,FUND
+10,Watt,8,FUND
+11,Kilowatt-Hour,10|9,FUND
+12,Direct Current,5,FUND
+13,Alternating Current,5,FUND
+14,Frequency,13,FUND
+15,Sine Wave,13,FUND
+16,RMS Value,15,FUND
+17,Peak Value,15,FUND
+18,Phase Angle,15,FUND
+19,Impedance,6|13,FUND
+20,Reactance,19,FUND
+21,Inductance,72|5,FUND
+22,Capacitance,3|4,FUND
+23,Resistive Load,6|8,FUND
+24,Inductive Load,21|20,FUND
+25,Capacitive Load,22|20,FUND
+26,Real Power,23|18,FUND
+27,Reactive Power,24|25|18,FUND
+28,Apparent Power,26|27,FUND
+29,Power Triangle,28,FUND
+30,Power Factor,29,FUND
+31,Leading Power Factor,30|25,FUND
+32,Lagging Power Factor,30|24,FUND
+33,Single-Phase Power,13|26,FUND
+34,Three-Phase Power,33|18,FUND
+35,Phase Sequence,34,FUND
+36,Balanced Load,34,FUND
+37,Unbalanced Load,36,FUND
+38,Line Voltage,34|4,FUND
+39,Phase Voltage,34|4,FUND
+40,Wye Connection,38|39,FUND
+41,Delta Connection,38|39,FUND
+42,Neutral Conductor,40,FUND
+43,Per-Unit System,28|4,FUND
+44,Power System Components,1,GRID
+45,Generation Stage,44,GRID
+46,Transmission Stage,44,GRID
+47,Distribution Stage,44,GRID
+48,Utilization Stage,44,GRID
+49,Single-Line Diagram,44|34,GRID
+50,One-Line Symbols,49,GRID
+51,Electric Grid,45|46|47|48,GRID
+52,Interconnection,51,GRID
+53,Eastern Interconnection,52,GRID
+54,Western Interconnection,52,GRID
+55,ERCOT Interconnection,52,GRID
+56,Balancing Authority,51,GRID
+57,Regional Transmission Org,56,GRID
+58,Midcontinent ISO,57,GRID
+59,Grid Reliability,51,GRID
+60,Grid Frequency Control,14|51,GRID
+61,Supply and Demand Balance,51|9,GRID
+62,Baseload Power,61,GRID
+63,Peak Load,61,GRID
+64,Intermediate Load,62|63,GRID
+65,Dispatchable Generation,61|45,GRID
+66,Variable Generation,65,GRID
+67,Spinning Reserve,60|65,GRID
+68,Load Following,65|64,GRID
+69,Generator,70|73|74,GEN
+70,Electromagnetic Induction,72|2,GEN
+71,Faraday's Law,70,GEN
+72,Magnetic Field,,GEN
+73,Rotor,72,GEN
+74,Stator,72,GEN
+75,Field Winding,73|21,GEN
+76,Excitation System,75,GEN
+77,Synchronous Generator,69|76|13,GEN
+78,Induction Generator,69|70,GEN
+79,Generator Rating,77|28,GEN
+80,Synchronous Speed,77|14,GEN
+81,Generator Synchronization,80|35,GEN
+82,Prime Mover,69,GEN
+83,Governor,82|60,GEN
+84,Turbine,82,GEN
+85,Steam Turbine,84,GEN
+86,Gas Turbine,84,GEN
+87,Hydraulic Turbine,84,GEN
+88,Wind Turbine,84,GEN
+89,Combined Cycle Plant,85|86,GEN
+90,Cogeneration,85,GEN
+91,Combined Heat and Power,90,GEN
+92,Thermal Power Plant,85|95,THERM
+93,Rankine Cycle,92|96,THERM
+94,Brayton Cycle,86,THERM
+95,Boiler,82,THERM
+96,Condenser,82,THERM
+97,Cooling Tower,96,THERM
+98,Thermal Efficiency,92,THERM
+99,Heat Rate,98,THERM
+100,Fossil Fuel Generation,92,THERM
+101,Coal Power Plant,100,THERM
+102,Natural Gas Power Plant,100|86,THERM
+103,Oil-Fired Generation,100,THERM
+104,Fuel Supply Chain,100,THERM
+105,Emissions Controls,100,THERM
+106,Carbon Dioxide Emissions,100,THERM
+107,Carbon Capture,106|105,THERM
+108,Nuclear Power Plant,110|85,THERM
+109,Nuclear Fission,9,THERM
+110,Nuclear Reactor,109,THERM
+111,Pressurized Water Reactor,110,THERM
+112,Boiling Water Reactor,110,THERM
+113,Nuclear Fuel Cycle,110,THERM
+114,Nuclear Safety,110,THERM
+115,Small Modular Reactor,110,THERM
+116,Hydroelectric Power,87|69,REN
+117,Run-of-River Hydro,116,REN
+118,Reservoir Hydro,116,REN
+119,Pumped Hydro Storage,118|153,REN
+120,Hydro Head and Flow,116,REN
+121,Dam,118,REN
+122,Renewable Energy,45|9,REN
+123,Wind Energy,122|88,REN
+124,Wind Farm,123,REN
+125,Wind Resource Assessment,123,REN
+126,Betz Limit,125,REN
+127,Capacity Factor,79|9,REN
+128,Offshore Wind,124,REN
+129,Solar Energy,122,REN
+130,Solar Irradiance,129,REN
+131,Photovoltaic Cell,129|12,REN
+132,Solar Panel,131,REN
+133,Solar Array,132,REN
+134,Peak Sun Hours,130,REN
+135,Array Tilt and Orientation,133|130,REN
+136,PV Module Ratings,132,REN
+137,Series and Parallel Strings,133|136,REN
+138,Solar Inverter,133|13,REN
+139,String Inverter,138,REN
+140,Microinverter,138,REN
+141,Maximum Power Point Tracking,138,REN
+142,Utility-Scale Solar,133|127,REN
+143,Rooftop Solar,133,REN
+144,Concentrated Solar Power,129|85,REN
+145,Geothermal Energy,122|85,REN
+146,Biomass Energy,122|95,REN
+147,Biogas,146,REN
+148,Waste-to-Energy,146,REN
+149,Tidal and Wave Energy,122,REN
+150,Hydrogen Fuel Cells,122|12,REN
+151,Levelized Cost of Energy,127|349|350,REN
+152,Generation Mix,122|100|108|116,REN
+153,Energy Storage,9,STOR
+154,Battery Storage System,153|12,STOR
+155,Lithium-Ion Battery,154,STOR
+156,Flow Battery,154,STOR
+157,Battery State of Charge,154,STOR
+158,Round-Trip Efficiency,153,STOR
+159,Flywheel Storage,153,STOR
+160,Thermal Energy Storage,153,STOR
+161,Compressed Air Storage,153,STOR
+162,Power Conversion System,154|138,STOR
+163,Peak Shaving,153|256,STOR
+164,Energy Arbitrage,153|270,STOR
+165,Transformer,70|13,XFMR
+166,Transformer Turns Ratio,165|4,XFMR
+167,Step-Up Transformer,166,XFMR
+168,Step-Down Transformer,166,XFMR
+169,Transformer kVA Rating,165|28,XFMR
+170,Transformer Impedance,165|19,XFMR
+171,Transformer Losses,165|6,XFMR
+172,Transformer Efficiency,171,XFMR
+173,Transformer Cooling,171,XFMR
+174,Oil-Filled Transformer,173,XFMR
+175,Dry-Type Transformer,173,XFMR
+176,Pad-Mounted Transformer,169|233,XFMR
+177,Pole-Mounted Transformer,169|232,XFMR
+178,Three-Phase Transformer Bank,165|34|40|41,XFMR
+179,Transformer Polarity,165,XFMR
+180,Transformer Taps,166|212,XFMR
+181,Autotransformer,166,XFMR
+182,Instrument Transformers,165,XFMR
+183,Current Transformer,182,XFMR
+184,Potential Transformer,182,XFMR
+185,Substation,167|168|190,SUB
+186,Step-Up Substation,185|45,SUB
+187,Transmission Substation,185|46,SUB
+188,Distribution Substation,185|47,SUB
+189,Switchyard,185|69,SUB
+190,Circuit Breaker,279|274,SUB
+191,Disconnect Switch,190,SUB
+192,Bus Configuration,185|193,SUB
+193,Busbar,5,SUB
+194,Lightning Arrester,185|291,SUB
+195,Capacitor Bank,22|185,SUB
+196,Voltage Regulator,212|185,SUB
+197,Substation Grounding,185|289,SUB
+198,Substation Control House,185|282,SUB
+199,Transmission Line,46|19,TRANS
+200,High-Voltage Transmission,199|167,TRANS
+201,Transmission Voltage Levels,200,TRANS
+202,Overhead Conductors,199,TRANS
+203,ACSR Conductor,202,TRANS
+204,Transmission Towers,199,TRANS
+205,Insulators,204,TRANS
+206,Right-of-Way,204,TRANS
+207,Underground Transmission,199,TRANS
+208,HVDC Transmission,200|12,TRANS
+209,Line Losses,199|210,TRANS
+210,I-Squared-R Losses,5|6|8,TRANS
+211,Voltage Drop,7|19,TRANS
+212,Voltage Regulation,211,TRANS
+213,Skin Effect,13|202,TRANS
+214,Corona Discharge,200,TRANS
+215,Line Inductance and Capacitance,199|21|22,TRANS
+216,Surge Impedance Loading,215,TRANS
+217,Transmission Congestion,199|218,TRANS
+218,Power Flow,199|26|27,TRANS
+219,Grid Stability,218|60,TRANS
+220,Subtransmission,187|188,TRANS
+221,Distribution System,47|188,DIST
+222,Primary Distribution,221,DIST
+223,Secondary Distribution,222|168,DIST
+224,Distribution Feeder,222,DIST
+225,Medium Voltage,222,DIST
+226,Low Voltage,223,DIST
+227,Standard Service Voltages,226|34,DIST
+228,Radial Distribution,224,DIST
+229,Loop Distribution,228,DIST
+230,Network Distribution,229,DIST
+231,Spot Network,230,DIST
+232,Overhead Distribution,224,DIST
+233,Underground Distribution,224,DIST
+234,Service Drop,232|223,DIST
+235,Service Lateral,233|223,DIST
+236,Recloser,224|279,DIST
+237,Sectionalizer,236,DIST
+238,Fuse Cutout,281|224,DIST
+239,Feeder Voltage Drop,224|211,DIST
+240,Distribution Automation,224|236,DIST
+241,Smart Grid,240|242,DIST
+242,Advanced Metering Infrastructure,243,DIST
+243,Smart Meter,301,DIST
+244,Demand Response,241|256,DIST
+245,Volt-VAR Control,196|195|27,DIST
+246,Power Factor Correction,30|195,DIST
+247,Capacitor Sizing,246,DIST
+248,Electrical Load,48|8,LOAD
+249,Connected Load,248,LOAD
+250,Demand Load,249,LOAD
+251,Demand Factor,249|250,LOAD
+252,Diversity Factor,251,LOAD
+253,Load Factor,256|9,LOAD
+254,Coincidence Factor,252,LOAD
+255,Load Profile,248|11,LOAD
+256,Peak Demand,255,LOAD
+257,Load Forecasting,255,LOAD
+258,Load Classification,248,LOAD
+259,Residential Load,258,LOAD
+260,Commercial Load,258,LOAD
+261,Industrial Load,258,LOAD
+262,Motor Load,261|24,LOAD
+263,Lighting Load,260,LOAD
+264,Electric Vehicle Charging Load,258,LOAD
+265,Data Center Load,260,LOAD
+266,Utility Rate Structure,11|256,LOAD
+267,Energy Charge,266,LOAD
+268,Demand Charge,266|256,LOAD
+269,Power Factor Penalty,266|30,LOAD
+270,Time-of-Use Rates,266,LOAD
+271,Utility Bill Analysis,267|268|269,LOAD
+272,Fault,5|19,PROT
+273,Short Circuit,272,PROT
+274,Short-Circuit Current,273|7,PROT
+275,Available Fault Current,274|170,PROT
+276,Ground Fault,272|289,PROT
+277,Line-to-Line Fault,272|34,PROT
+278,Three-Phase Fault,272|34,PROT
+279,Overcurrent Protection,273|280,PROT
+280,Overload,5,PROT
+281,Fuse,279,PROT
+282,Protective Relay,272|182,PROT
+283,Overcurrent Relay,282|279,PROT
+284,Differential Protection,282|183,PROT
+285,Protection Coordination,286|283,PROT
+286,Time-Current Curve,281|190,PROT
+287,Interrupting Rating,190|275,PROT
+288,Arc Flash Hazard,275|285,PROT
+289,Grounding,272,PROT
+290,Ground Fault Protection,276|289,PROT
+291,Surge Protection,4|289,PROT
+292,Reliability,59|293,PROT
+293,Outage,272|279,PROT
+294,SAIDI,292|293,PROT
+295,SAIFI,292|293,PROT
+296,CAIDI,294|295,PROT
+297,Redundancy,292|228,PROT
+298,Single Point of Failure,297,PROT
+299,Resiliency,292|297,PROT
+300,Service Entrance,48|223,SERV
+301,Electric Meter,300|11,SERV
+302,Metering Configurations,301|183|184,SERV
+303,Main Disconnect,300|191,SERV
+304,Switchgear,190|193|300,SERV
+305,Switchboard,304,SERV
+306,Panelboard,303|190,SERV
+307,Motor Control Center,306|262,SERV
+308,Feeder and Branch Circuit,306|279,SERV
+309,Service Entrance Sizing,300|250|227,SERV
+310,Service Voltage Selection,227|250|211,SERV
+311,Building Distribution System,305|306|308,SERV
+312,Standby Power,311|69,SERV
+313,Emergency Power,312,SERV
+314,Backup Generator,312|77,SERV
+315,Automatic Transfer Switch,312,SERV
+316,Uninterruptible Power Supply,154|312,SERV
+317,Critical Facility Power,313|316|315,SERV
+318,Distributed Energy Resources,122|153|221,DER
+319,Distributed Generation,318,DER
+320,Net Metering,319|301,DER
+321,Grid Interconnection Standards,319|331,DER
+322,Interconnection Application,321,DER
+323,Anti-Islanding,321|138,DER
+324,Microgrid,318|325,DER
+325,Islanding Operation,323,DER
+326,Behind-the-Meter Generation,319|301,DER
+327,Virtual Power Plant,318|241,DER
+328,Solar Plus Storage,133|154,DER
+329,National Electrical Code,311,REG
+330,National Electrical Safety Code,221|199,REG
+331,IEEE Standards,1,REG
+332,ANSI Standards,331,REG
+333,NFPA 70E,288|329,REG
+334,Public Utility Commission,266,REG
+335,Utility Regulation,334,REG
+336,FERC,335|199,REG
+337,NERC,336|59,REG
+338,Energy Efficiency,9|255,REG
+339,Energy Conservation,338,REG
+340,System Losses,209|171,REG
+341,Electrification,338|248,REG
+342,Decarbonization,122|106,REG
+343,Greenhouse Gas Emissions,106,REG
+344,Environmental Impact,343|152,REG
+345,Life Cycle Analysis,344,REG
+346,Net Present Value,349|350,REG
+347,Simple Payback,349|350,REG
+348,Return on Investment,346|347,REG
+349,Capital Cost,1,REG
+350,Operating Cost,1,REG
+351,Incentives and Tax Credits,349,REG
+352,Energy Audit,338|271,REG
+353,Energy Plan,352|318|348,REG
+354,Electrical Design Process,49|355|329,REG
+355,Load Calculation,250|251|252,REG
+356,Single-Line Diagram Design,49|50|354,REG
+357,Equipment Specification,354|169|287,REG
+358,Power System Report,356|357|355,REG
