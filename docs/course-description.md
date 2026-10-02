@@ -114,3 +114,13 @@ After completing this course, students will be able to:
     - Design a campus microgrid with solar, battery storage and backup generation, including single-line diagrams, load analysis and an economic summary
     - Prepare a "power path" study of a local building, tracing its supply back through the substation to the generating sources on the regional grid
     - Create an interactive or illustrated guide that teaches a new designer how a service request moves from utility interconnection to building panels
+
+## References
+
+<!-- 
+ECDM2260 | Power Generation & Distribution | Lecture (3 Credits)
+
+Provide a foundational understanding of the entire power system from power generation methods, traditional and renewables, to its end users with a specific focus on the needs of electrical designers as they create efficient and reliable electrical systems.
+--->
+
+[Dunwoody College Course Catalog](https://catalog.dunwoody.edu/catalog-student-handbook/course-descriptions/ecdm/) - accessed on Oct. 2nd 2026

@@ -49,6 +49,7 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+      - Relay Mascot Test: learning-graph/mascot-test.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
@@ -61,8 +62,8 @@ nav:
 theme:
   name: material
   # Once a logo is generated, point this at docs/img/logo.png or a mascot pose:
-  # logo: img/logo.png
-  # favicon: img/favicon.ico
+  logo: img/mascot/welcome.png
+  favicon: img/favicon.ico
   palette:
     primary: 'indigo'
     accent: 'orange'
