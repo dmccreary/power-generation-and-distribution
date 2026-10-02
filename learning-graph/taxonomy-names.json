@@ -1,0 +1,17 @@
+{
+  "FUND": "Electrical Fundamentals",
+  "GRID": "Power System and Grid Structure",
+  "GEN": "Generators and Prime Movers",
+  "THERM": "Thermal and Nuclear Generation",
+  "REN": "Hydro and Renewable Generation",
+  "STOR": "Energy Storage",
+  "XFMR": "Transformers",
+  "SUB": "Substations",
+  "TRANS": "Transmission Systems",
+  "DIST": "Distribution Systems",
+  "LOAD": "Load Analysis and Utility Rates",
+  "PROT": "Protection and Reliability",
+  "SERV": "Service Entrance and Backup Power",
+  "DER": "Distributed Energy and Microgrids",
+  "REG": "Codes, Economics and Design"
+}
