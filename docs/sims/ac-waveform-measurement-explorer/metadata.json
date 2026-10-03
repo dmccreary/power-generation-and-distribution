@@ -1,0 +1,35 @@
+{
+  "title": "AC Waveform Measurement Explorer",
+  "creator": "Dan McCreary",
+  "subject": ["Electrical engineering", "Alternating current", "Sine wave", "Frequency", "RMS"],
+  "description": "Challenge-first waveform activity for calculating period and RMS voltage, then exploring instantaneous values and DC comparison.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/ac-waveform-measurement-explorer/",
+  "educational": {
+    "gradeLevel": ["11", "12", "Undergraduate"],
+    "subjectArea": "Electrical Engineering",
+    "topic": "Sine-wave measurements",
+    "learningObjectives": ["Calculate period and RMS voltage from sine-wave frequency and peak voltage."],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": ["AC and DC", "Sine wave", "Cycle", "Frequency", "Period", "Peak and RMS values"]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 650,
+    "responsive": true,
+    "dependencies": ["p5.js 1.11.10"],
+    "accessibility": {"hasAltText": true, "keyboardNavigable": true}
+  },
+  "pedagogical": {
+    "teachingStrategy": "Calculate-reveal-explore",
+    "keyQuestions": ["How does frequency affect period?", "How does peak voltage relate to RMS voltage?"],
+    "commonMisconceptions": ["RMS is the signed arithmetic average", "Higher frequency increases period"],
+    "assessmentOpportunities": ["Three waveforms with six scored values", "Period-change comparisons"]
+  },
+  "chapter": "01-electrical-foundations"
+}

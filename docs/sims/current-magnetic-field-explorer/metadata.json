@@ -1,0 +1,35 @@
+{
+  "title": "Current and Magnetic Field Explorer",
+  "creator": "Dan McCreary",
+  "subject": ["Electrical engineering", "Magnetic field", "Right-hand grip rule", "Straight conductor"],
+  "description": "Prediction activity for magnetic-field direction and magnitude around an ideal long straight conductor.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/current-magnetic-field-explorer/",
+  "educational": {
+    "gradeLevel": ["11", "12", "Undergraduate"],
+    "subjectArea": "Electrical Engineering",
+    "topic": "Magnetic field around a current-carrying conductor",
+    "learningObjectives": ["Predict field circulation and calculate magnitude from current and distance."],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": ["Conventional current", "Magnetic field", "Right-hand grip rule", "Tesla", "Vector direction"]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 615,
+    "responsive": true,
+    "dependencies": ["p5.js 1.11.10"],
+    "accessibility": {"hasAltText": true, "keyboardNavigable": true}
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict-reveal-compare",
+    "keyQuestions": ["What reverses when current reverses?", "How do current and distance affect field magnitude?"],
+    "commonMisconceptions": ["Reversing current changes magnitude but not direction", "Field magnitude increases with distance"],
+    "assessmentOpportunities": ["Four direction predictions", "Four magnitude calculations"]
+  },
+  "chapter": "01-electrical-foundations"
+}

@@ -70,8 +70,20 @@ nav:
       - Relay Mascot Test: learning-graph/mascot-test.md
 
   - MicroSims:
-      - List of MicroSims: sims/index.md
-      - Learning Graph Viewer: sims/graph-viewer/index.md
+    - List of MicroSims: sims/index.md
+    - AC Impedance and Phase Explorer: sims/ac-impedance-phase-explorer/index.md
+    - AC Power Triangle and Power Factor Calculator: sims/ac-power-triangle-calculator/index.md
+    - AC Waveform Measurement Explorer: sims/ac-waveform-measurement-explorer/index.md
+    - Circuit Quantity Explorer: sims/circuit-quantity-explorer/index.md
+    - Current and Magnetic Field Explorer: sims/current-magnetic-field-explorer/index.md
+    - Electrical Power and Energy Calculator: sims/electrical-power-energy-calculator/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Power System Path Explorer: sims/power-system-path-explorer/index.md
+    - RMS Explorer: sims/rms-explorer/index.md
+
+
+
+
 
   - License: license.md
   - Contact: contact.md
@@ -139,20 +151,27 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.arithmatex:
       generic: true
+      # Currency-safe: only backslash delimiters are treated as math.
+      inline_syntax: ['round']
+      block_syntax: ['square']
 
 # Custom CSS — file is created by init-textbook
 extra_css:
   - css/extra.css
   - css/mascot.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css
 
-# Custom JavaScript — uncomment once a corresponding file exists
-# extra_javascript:
-#   - js/extra.js
+# Custom JavaScript
+extra_javascript:
+  - js/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js
 
 # Exclude prompt scratch files and TODOs from build/search/sitemap
 exclude_docs: |
   **/image-prompt*.md
   **/image-prompts*.md
+  **/cover-image-prompt.md
   **/cover-prompt.md
   **/TODO.md
 

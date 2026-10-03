@@ -1,0 +1,63 @@
+{
+  "title": "AC Impedance and Phase Explorer",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Electrical engineering",
+    "Alternating current",
+    "Power factor"
+  ],
+  "description": "Slider-driven series R, XL, XC model with impedance triangle, waveforms, and a predict-before-reveal quiz.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/ac-impedance-phase-explorer/",
+  "educational": {
+    "gradeLevel": [
+      "11",
+      "12",
+      "Undergraduate"
+    ],
+    "subjectArea": "Electrical Engineering",
+    "topic": "Impedance and phase angle",
+    "learningObjectives": [
+      "Calculate impedance magnitude and phase angle and classify current as leading, lagging, or in phase."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Resistance",
+      "Reactance",
+      "Impedance",
+      "Phase angle"
+    ]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 645,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore with sliders, then predict-before-reveal quiz",
+    "keyQuestions": [
+      "Why do resistance and reactance not add as plain numbers?",
+      "What does the sign of net reactance tell you about current timing?"
+    ],
+    "commonMisconceptions": [
+      "Resistance and reactance magnitudes add directly",
+      "Positive phase angle means current leads"
+    ],
+    "assessmentOpportunities": [
+      "Quiz me mode with scored answers"
+    ]
+  },
+  "chapter": "02-ac-circuits-power-factor"
+}

@@ -1,0 +1,63 @@
+{
+  "title": "AC Power Triangle and Power Factor Calculator",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Electrical engineering",
+    "Alternating current",
+    "Power factor"
+  ],
+  "description": "Slider-driven power triangle showing S, PF, phase angle, and leading or lagging direction, with a predict-before-reveal quiz.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/ac-power-triangle-calculator/",
+  "educational": {
+    "gradeLevel": [
+      "11",
+      "12",
+      "Undergraduate"
+    ],
+    "subjectArea": "Electrical Engineering",
+    "topic": "Power triangle and power factor",
+    "learningObjectives": [
+      "Calculate apparent power, power factor, phase angle, and direction from real and reactive power."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Real power",
+      "Reactive power",
+      "Apparent power",
+      "Power factor"
+    ]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 580,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore with sliders, then predict-before-reveal quiz",
+    "keyQuestions": [
+      "Why do +Q and \u2212Q give the same S and PF?",
+      "Why is PF 0.8 not 80% efficiency?"
+    ],
+    "commonMisconceptions": [
+      "Reactive power is always positive",
+      "PF alone reveals leading or lagging"
+    ],
+    "assessmentOpportunities": [
+      "Quiz me mode with scored answers"
+    ]
+  },
+  "chapter": "02-ac-circuits-power-factor"
+}

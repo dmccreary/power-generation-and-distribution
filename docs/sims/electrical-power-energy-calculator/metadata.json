@@ -1,0 +1,35 @@
+{
+  "title": "Electrical Power and Energy Calculator",
+  "creator": "Dan McCreary",
+  "subject": ["Electrical engineering", "Electric power", "Electrical energy", "Kilowatt-hour"],
+  "description": "Challenge-first calculator distinguishing electric power as a rate from electrical energy accumulated over time.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/electrical-power-energy-calculator/",
+  "educational": {
+    "gradeLevel": ["11", "12", "Undergraduate"],
+    "subjectArea": "Electrical Engineering",
+    "topic": "Electric power and energy",
+    "learningObjectives": ["Calculate power in watts or kilowatts and energy in kilowatt-hours for ideal resistive loads."],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": ["Voltage", "Current", "Power", "Energy", "Operating time"]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 600,
+    "responsive": true,
+    "dependencies": ["p5.js 1.11.10"],
+    "accessibility": {"hasAltText": true, "keyboardNavigable": true}
+  },
+  "pedagogical": {
+    "teachingStrategy": "Calculate-predict-explore",
+    "keyQuestions": ["How does power differ from energy?", "What changes when operating time doubles?"],
+    "commonMisconceptions": ["Kilowatt and kilowatt-hour are interchangeable", "Energy is power divided by time"],
+    "assessmentOpportunities": ["Three fixed cases with unit-sensitive feedback", "Time-doubling prediction"]
+  },
+  "chapter": "01-electrical-foundations"
+}

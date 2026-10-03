@@ -1,0 +1,68 @@
+{
+  "title": "Power System Path Explorer",
+  "creator": "Dan McCreary",
+  "subject": [
+    "Electrical engineering",
+    "Generation",
+    "Transmission",
+    "Distribution",
+    "Utilization"
+  ],
+  "description": "Predict-correct-reveal activity: order generation, transmission, distribution, and utilization, match four role cards, then inspect the revealed path and its transformer and substation connections.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/power-system-path-explorer/",
+  "educational": {
+    "gradeLevel": [
+      "11",
+      "12",
+      "Undergraduate"
+    ],
+    "subjectArea": "Electrical Engineering",
+    "topic": "Electric power system stages",
+    "learningObjectives": [
+      "Order generation, transmission, distribution, and utilization and match each stage to its role."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Electric power system",
+      "Transformers",
+      "Substations",
+      "Feeders",
+      "Loads"
+    ]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 675,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true,
+      "notes": "Native p5.js selects and buttons; Inspect menu mirrors clicking diagram elements; correctness shown with symbols as well as color."
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict-correct-reveal",
+    "keyQuestions": [
+      "What is the correct path from energy conversion to useful output?",
+      "What role do transformers play?"
+    ],
+    "commonMisconceptions": [
+      "Distribution occurs before transmission",
+      "Transformers generate electrical energy"
+    ],
+    "assessmentOpportunities": [
+      "First-submission sequence and role score",
+      "Process-load transfer question"
+    ]
+  },
+  "chapter": "01-electrical-foundations"
+}

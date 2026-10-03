@@ -1,0 +1,29 @@
+{
+  "title": "RMS Explorer",
+  "creator": "Dan McCreary",
+  "subject": ["Electrical engineering", "Alternating current", "RMS", "Sine wave"],
+  "description": "Adjust amplitude, frequency, and phase of a sine wave and see the squared wave and RMS value; only amplitude affects RMS.",
+  "date": "2026-10-02",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/power-generation-and-distribution/sims/rms-explorer/",
+  "educational": {
+    "gradeLevel": ["11", "12", "Undergraduate"],
+    "subjectArea": "Electrical Engineering",
+    "topic": "RMS value of a sine wave",
+    "learningObjectives": ["Explain which sine-wave parameters affect the RMS value."],
+    "bloomsTaxonomy": "Understand",
+    "duration": "5-10 minutes",
+    "prerequisites": ["Sine wave", "Amplitude", "Frequency", "Phase"]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasHeight": 640,
+    "responsive": true,
+    "dependencies": ["p5.js 1.11.10"],
+    "accessibility": {"hasAltText": true, "keyboardNavigable": true}
+  },
+  "chapter": "01-electrical-foundations"
+}
